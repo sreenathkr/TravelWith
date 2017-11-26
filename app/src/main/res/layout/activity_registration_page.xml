@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.reshma.travelwithme.registrationPage">
+
+    <TextView
+        android:id="@+id/firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="80dp"
+        android:layout_toStartOf="@+id/registerbtn"
+        android:text="First Name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/firstname"
+        android:layout_below="@+id/editText10"
+        android:layout_marginTop="31dp"
+        android:layout_toStartOf="@+id/registerbtn"
+        android:text="Last Name"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/firstname"
+        android:layout_alignBottom="@+id/firstname"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lastname"
+        android:layout_alignBottom="@+id/lastname"
+        android:layout_alignStart="@+id/editText10"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText11"
+        android:layout_below="@+id/editText11"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="MM/DD/YYYY"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText12"
+        android:layout_below="@+id/editText12"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="xyz@xyz.com"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText13"
+        android:layout_below="@+id/editText13"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="Min 8 alphamumeric"
+        android:inputType="textPersonName"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText14"
+        android:layout_below="@+id/editText14"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="Re-Enter Password"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+
+        android:background="@drawable/registrationxml"
+        android:text="Register"
+        android:textColor="@android:color/white"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText12"
+        android:layout_alignBottom="@+id/editText12"
+        android:layout_alignEnd="@+id/lastname"
+        android:layout_alignStart="@+id/lastname"
+        android:layout_marginTop="31dp"
+        android:text="Date Of Birth"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/emailid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText13"
+        android:layout_alignBottom="@+id/editText13"
+        android:layout_alignEnd="@+id/dob"
+        android:layout_alignStart="@+id/dob"
+        android:layout_marginTop="31dp"
+        android:text="Email ID"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/passwrd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText14"
+        android:layout_alignEnd="@+id/emailid"
+        android:layout_alignStart="@+id/emailid"
+        android:layout_marginTop="31dp"
+        android:text="Password"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText15"
+        android:layout_alignBottom="@+id/editText15"
+        android:layout_alignEnd="@+id/passwrd"
+        android:layout_alignStart="@+id/passwrd"
+        android:layout_marginTop="31dp"
+        android:text="Re-Password"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/backbutton" />
+
+</RelativeLayout>

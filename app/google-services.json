@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "812790699406",
+    "firebase_url": "https://travelwith-f6773.firebaseio.com",
+    "project_id": "travelwith-f6773",
+    "storage_bucket": "travelwith-f6773.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812790699406:android:d1bf2a5c2e8b4533",
+        "android_client_info": {
+          "package_name": "com.reshma.travelwithme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812790699406-94i3urvol2fm6t9f453jcodi2hjq83m2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reshma.travelwithme",
+            "certificate_hash": "68b9a9bef308674eec42ef0b49f2fa50310f26e9"
+          }
+        },
+        {
+          "client_id": "812790699406-e8ultkf4s102c8nnuqpjrduvo0uk88if.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2rH8YJNua8YNZVDeLHQdq2vJijfb_W7k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812790699406-e8ultkf4s102c8nnuqpjrduvo0uk88if.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
