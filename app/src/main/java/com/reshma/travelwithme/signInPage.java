@@ -17,6 +17,7 @@ public class signInPage extends AppCompatActivity {
         setContentView(R.layout.activity_sign_in_page);
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
+        
         forgotButton = (Button) findViewById(R.id.button6);
         registration = (Button) findViewById(R.id.button7);
 
